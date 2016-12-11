@@ -32,8 +32,8 @@ with open('stats.csv', 'w') as csvfile:
         'efficiency',
     ]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
     writer.writeheader()
+
     for row in table.find_all('tr')[1:270]:
         col = row.find_all('td')
         writer.writerow({
