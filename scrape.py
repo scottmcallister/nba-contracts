@@ -19,11 +19,12 @@ table = soup.find(class_='stats_table')
 def print_range(start_i, end_i):
     for row in table.find_all('tr')[start_i:end_i]:
         col = row.find_all('td')
-        name = BeautifulSoup(col[0].string, 'lxml').text
-        team = BeautifulSoup(col[1].string, 'lxml').text
-        salary = BeautifulSoup(col[2].string, 'lxml').text
-        contract = BeautifulSoup(col[8].string, 'lxml').text
-        print "name: "+str(name)+" team: "+str(team)+" salary: "+str(salary)
+        name = BeautifulSoup(str(col[0]), 'lxml').text
+        team = BeautifulSoup(str(col[1]), 'lxml').text
+        salary = BeautifulSoup(str(col[2]), 'lxml').text
+        contract = BeautifulSoup(str(col[8]), 'lxml').text
+        print "name: "+str(name)+" team: "+str(team)+" salary: " + \
+            str(salary)+" type: "+contract
         player_names.append(name)
         teams.append(team)
         season_salaries.append(salary)
