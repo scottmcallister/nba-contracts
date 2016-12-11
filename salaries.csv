@@ -1,100 +1,100 @@
-player_name,team,salary,contract_type
-LeBron James,CLE,"$30,963,450",Early Bird
-Mike Conley,MEM,"$26,540,100",Cap Space
-DeMar DeRozan,TOR,"$26,540,100",Cap Space
-James Harden,HOU,"$26,540,100",Bird Rights
-Al Horford,BOS,"$26,540,100",Cap Space
-Russell Westbrook,OKC,"$26,540,100",Bird Rights
-Kevin Durant,GSW,"$26,540,100",Cap Space
-Dirk Nowitzki,DAL,"$25,000,000",Bird Rights
-Carmelo Anthony,NYK,"$24,559,380",Bird Rights
-Damian Lillard,POR,"$24,328,425",1st Round Pick
-Chris Bosh,MIA,"$23,741,060",Bird Rights
-Dwyane Wade,CHI,"$23,200,000",Cap Space
-Dwight Howard,ATL,"$23,180,275",Cap Space
-Chris Paul,LAC,"$22,868,828",Bird Rights
-Bradley Beal,WAS,"$22,116,750",Cap Space
-Anthony Davis,NOP,"$22,116,750",1st Round Pick
-Andre Drummond,DET,"$22,116,750",Cap Space
-Chandler Parsons,MEM,"$22,116,750",Cap Space
-Hassan Whiteside,MIA,"$22,116,750",Cap Space
-Harrison Barnes,DAL,"$22,116,750",Cap Space
-Derrick Rose,NYK,"$21,323,250",Bird Rights
-Marc Gasol,MEM,"$21,165,675",Bird Rights
-Kevin Love,CLE,"$21,165,675",Bird Rights
-DeAndre Jordan,LAC,"$21,165,675",Bird Rights
-Brook Lopez,BRK,"$21,165,675",Bird Rights
-Nicolas Batum,CHO,"$20,869,566",Cap Space
-LaMarcus Aldridge,SAS,"$20,575,005",Cap Space
-Blake Griffin,LAC,"$20,140,838",Bird Rights
-Paul Millsap,ATL,"$20,072,033",Bird Rights
-Ryan Anderson,HOU,"$18,735,364",Cap Space
-Allen Crabbe,POR,"$18,500,000",Cap Space
-Paul George,IND,"$18,314,532",1st Round Pick
-Luol Deng,LAL,"$18,000,000",Cap Space
-Kawhi Leonard,SAS,"$17,638,063",Bird Rights
-Kyrie Irving,CLE,"$17,638,063",Bird Rights
-Jimmy Butler,CHI,"$17,552,209",Bird Rights
-Tobias Harris,DET,"$17,200,000",Bird Rights
-Enes Kanter,OKC,"$17,145,838",Bird Rights
-Wesley Matthews,DAL,"$17,100,000",Cap Space
-Greg Monroe,MIL,"$17,100,000",Cap Space
-Evan Fournier,ORL,"$17,000,000",Cap Space
-Joakim Noah,NYK,"$17,000,000",Cap Space
-Bismack Biyombo,ORL,"$17,000,000",Cap Space
-John Wall,WAS,"$16,957,900",1st Round Pick
-DeMarcus Cousins,SAC,"$16,957,900",1st Round Pick
-Klay Thompson,GSW,"$16,663,575",1st Round Pick
-Evan Turner,POR,"$16,393,443",Cap Space
-Gordon Hayward,UTA,"$16,073,140",Bird Rights
-Timofey Mozgov,LAL,"$16,000,000",Cap Space
-Ian Mahinmi,WAS,"$15,944,154",Cap Space
-Goran Dragic,MIA,"$15,890,000",Bird Rights
-Kent Bazemore,ATL,"$15,730,338",Cap Space
-Pau Gasol,SAS,"$15,500,000",Cap Space
-Draymond Green,GSW,"$15,330,435",Bird Rights
-Tristan Thompson,CLE,"$15,330,435",Bird Rights
-Khris Middleton,MIL,"$15,200,000",Bird Rights
-Danilo Gallinari,DEN,"$15,050,000",
-Jeff Green,ORL,"$15,000,000",Cap Space
-Reggie Jackson,DET,"$14,956,522",Bird Rights
-Tony Parker,SAS,"$14,445,313",Bird Rights
-Jonas Valanciunas,TOR,"$14,382,022",1st Round Pick
-DeMarre Carroll,TOR,"$14,200,000",Cap Space
-Thaddeus Young,IND,"$14,153,652",Bird Rights
-Eric Bledsoe,PHO,"$14,000,000",Bird Rights
-Rajon Rondo,CHI,"$14,000,000",Cap Space
-Manu Ginobili,SAS,"$14,000,000",Cap Space
-Ricky Rubio,MIN,"$13,550,000",1st Round Pick
-Rudy Gay,SAC,"$13,333,333",Bird Rights
-Jamal Crawford,LAC,"$13,253,012",Cap Space
-Robin Lopez,CHI,"$13,219,250",Cap Space
-Michael Kidd-Gilchrist,CHO,"$13,000,000",1st Round Pick
-J.R. Smith,CLE,"$12,800,000",Bird Rights
-Brandon Knight,PHO,"$12,606,250",
-John Henson,MIL,"$12,517,606",1st Round Pick
-Miles Plumlee,MIL,"$12,500,000",Bird Rights
-Jordan Clarkson,LAL,"$12,500,000",Cap Space
-Arron Afflalo,SAC,"$12,500,000",Cap Space
-Tyson Chandler,PHO,"$12,415,000",Cap Space
-Eric Gordon,HOU,"$12,385,364",Cap Space
-Marvin Williams,CHO,"$12,250,000",Cap Space
-Serge Ibaka,ORL,"$12,250,000",Bird Rights
-Stephen Curry,GSW,"$12,112,359",Bird Rights
-Nikola Pekovic,MIN,"$12,100,000",Bird Rights
-Kenneth Faried,DEN,"$12,078,652",1st Round Pick
-Marcin Gortat,WAS,"$12,000,000",Bird Rights
-Kemba Walker,CHO,"$12,000,000",1st Round Pick
-Kyle Lowry,TOR,"$12,000,000",Bird Rights
-Amir Johnson,BOS,"$12,000,000",Cap Space
-Nikola Vucevic,ORL,"$11,750,000",Bird Rights
-Jeremy Lin,BRK,"$11,483,254",Cap Space
-Jrue Holiday,NOP,"$11,286,518",Bird Rights
-Courtney Lee,NYK,"$11,242,000",Cap Space
-Solomon Hill,NOP,"$11,241,218",Cap Space
-Wilson Chandler,DEN,"$11,200,000",
-Andre Iguodala,GSW,"$11,131,368",Bird Rights
-Derrick Favors,UTA,"$11,050,000",1st Round Pick
-Andrew Bogut,DAL,"$11,027,027",Bird Rights
-Austin Rivers,LAC,"$11,000,000",Cap Space
-Joe Johnson,UTA,"$11,000,000",Cap Space
+player_name,team,salary_2016-17,salary_2017-18,salary_2018-2019,salary_2019-2020,salary_2020-21,salary_2021-22,contract_type
+LeBron James,CLE,"$30,963,450","$33,285,709","$35,607,968",,,,Early Bird
+Mike Conley,MEM,"$26,540,100","$28,530,608","$30,521,115","$32,511,623","$34,504,132",,Cap Space
+DeMar DeRozan,TOR,"$26,540,100","$27,739,975","$27,739,975","$27,739,975","$27,739,975",,Cap Space
+James Harden,HOU,"$26,540,100","$28,299,339","$30,431,854","$32,703,493",,,Bird Rights
+Al Horford,BOS,"$26,540,100","$27,734,405","$28,928,710","$30,123,015",,,Cap Space
+Russell Westbrook,OKC,"$26,540,100","$28,530,608","$30,670,404",,,,Bird Rights
+Kevin Durant,GSW,"$26,540,100","$27,734,406",,,,,Cap Space
+Dirk Nowitzki,DAL,"$25,000,000","$25,000,000",,,,,Bird Rights
+Carmelo Anthony,NYK,"$24,559,380","$26,243,760","$27,928,140",,,,Bird Rights
+Damian Lillard,POR,"$24,328,425","$26,153,057","$27,977,689","$29,802,321","$31,626,953",,1st Round Pick
+Chris Bosh,MIA,"$23,741,060","$25,289,390","$26,837,720",,,,Bird Rights
+Dwyane Wade,CHI,"$23,200,000","$23,800,000",,,,,Cap Space
+Dwight Howard,ATL,"$23,180,275","$23,500,000","$23,819,725",,,,Cap Space
+Chris Paul,LAC,"$22,868,828","$24,268,960",,,,,Bird Rights
+Bradley Beal,WAS,"$22,116,750","$23,775,506","$25,434,263","$27,093,019","$28,751,775",,Cap Space
+Anthony Davis,NOP,"$22,116,750","$23,775,506","$25,434,263","$27,093,019","$28,751,775",,1st Round Pick
+Andre Drummond,DET,"$22,116,750","$23,775,506","$25,434,263","$27,093,019","$28,751,775",,Cap Space
+Chandler Parsons,MEM,"$22,116,750","$23,112,004","$24,107,258","$25,102,511",,,Cap Space
+Hassan Whiteside,MIA,"$22,116,750","$23,775,506","$25,434,263","$27,093,018",,,Cap Space
+Harrison Barnes,DAL,"$22,116,750","$23,112,004","$24,107,258","$25,102,512",,,Cap Space
+Derrick Rose,NYK,"$21,323,250",,,,,,Bird Rights
+Marc Gasol,MEM,"$21,165,675","$22,642,350","$24,119,025","$25,595,700",,,Bird Rights
+Kevin Love,CLE,"$21,165,675","$22,642,350","$24,119,025","$25,595,700",,,Bird Rights
+DeAndre Jordan,LAC,"$21,165,675","$22,642,350","$24,119,025",,,,Bird Rights
+Brook Lopez,BRK,"$21,165,675","$22,642,350",,,,,Bird Rights
+Nicolas Batum,CHO,"$20,869,566","$22,434,783","$24,000,000","$25,565,217","$27,130,434",,Cap Space
+LaMarcus Aldridge,SAS,"$20,575,005","$21,461,010","$22,347,015",,,,Cap Space
+Blake Griffin,LAC,"$20,140,838","$21,373,950",,,,,Bird Rights
+Paul Millsap,ATL,"$20,072,033","$21,472,407",,,,,Bird Rights
+Ryan Anderson,HOU,"$18,735,364","$19,578,455","$20,421,546","$21,264,635",,,Cap Space
+Allen Crabbe,POR,"$18,500,000","$18,500,000","$19,332,500","$18,500,000",,,Cap Space
+Paul George,IND,"$18,314,532","$19,508,958","$20,703,384",,,,1st Round Pick
+Luol Deng,LAL,"$18,000,000","$17,190,000","$18,000,000","$18,810,000",,,Cap Space
+Kawhi Leonard,SAS,"$17,638,063","$18,868,625","$20,099,189","$21,329,752",,,Bird Rights
+Kyrie Irving,CLE,"$17,638,063","$18,868,625","$20,099,188","$21,329,750",,,Bird Rights
+Jimmy Butler,CHI,"$17,552,209","$18,696,918","$19,841,624","$19,841,624",,,Bird Rights
+Tobias Harris,DET,"$17,200,000","$16,000,000","$14,800,000",,,,Bird Rights
+Enes Kanter,OKC,"$17,145,838","$17,884,176","$18,622,514",,,,Bird Rights
+Wesley Matthews,DAL,"$17,100,000","$17,900,000","$18,600,000",,,,Cap Space
+Greg Monroe,MIL,"$17,100,000","$17,900,000",,,,,Cap Space
+Evan Fournier,ORL,"$17,000,000","$17,000,000","$17,000,000","$17,000,000","$17,000,000",,Cap Space
+Joakim Noah,NYK,"$17,000,000","$17,765,000","$18,530,000","$19,295,000",,,Cap Space
+Bismack Biyombo,ORL,"$17,000,000","$17,000,000","$17,000,000","$18,872,365",,,Cap Space
+John Wall,WAS,"$16,957,900","$18,063,850","$19,169,800",,,,1st Round Pick
+DeMarcus Cousins,SAC,"$16,957,900","$18,063,850",,,,,1st Round Pick
+Klay Thompson,GSW,"$16,663,575","$17,826,150","$18,988,725",,,,1st Round Pick
+Evan Turner,POR,"$16,393,443","$17,131,148","$17,868,852","$18,606,557",,,Cap Space
+Gordon Hayward,UTA,"$16,073,140","$16,736,710",,,,,Bird Rights
+Timofey Mozgov,LAL,"$16,000,000","$15,280,000","$16,000,000","$16,720,000",,,Cap Space
+Ian Mahinmi,WAS,"$15,944,154","$16,661,641","$15,944,154","$15,450,051",,,Cap Space
+Goran Dragic,MIA,"$15,890,000","$17,000,000","$18,110,000","$19,220,000",,,Bird Rights
+Kent Bazemore,ATL,"$15,730,338","$16,910,113","$18,089,887","$19,269,662",,,Cap Space
+Pau Gasol,SAS,"$15,500,000","$16,197,500",,,,,Cap Space
+Draymond Green,GSW,"$15,330,435","$16,400,000","$17,469,565","$18,539,130",,,Bird Rights
+Tristan Thompson,CLE,"$15,330,435","$16,400,000","$17,469,565","$18,539,130",,,Bird Rights
+Khris Middleton,MIL,"$15,200,000","$14,100,000","$13,000,000","$13,000,000",,,Bird Rights
+Danilo Gallinari,DEN,"$15,050,000","$16,100,000",,,,,
+Jeff Green,ORL,"$15,000,000",,,,,,Cap Space
+Reggie Jackson,DET,"$14,956,522","$16,000,000","$17,043,478","$18,086,956",,,Bird Rights
+Tony Parker,SAS,"$14,445,313","$15,453,126",,,,,Bird Rights
+Jonas Valanciunas,TOR,"$14,382,022","$15,460,675","$16,539,326","$17,617,977",,,1st Round Pick
+DeMarre Carroll,TOR,"$14,200,000","$14,800,000","$15,400,000",,,,Cap Space
+Thaddeus Young,IND,"$14,153,652","$14,796,348","$13,764,045",,,,Bird Rights
+Eric Bledsoe,PHO,"$14,000,000","$14,500,000","$15,000,000",,,,Bird Rights
+Rajon Rondo,CHI,"$14,000,000","$13,397,000",,,,,Cap Space
+Manu Ginobili,SAS,"$14,000,000",,,,,,Cap Space
+Ricky Rubio,MIN,"$13,550,000","$14,250,000","$14,800,000",,,,1st Round Pick
+Rudy Gay,SAC,"$13,333,333","$14,263,566",,,,,Bird Rights
+Jamal Crawford,LAC,"$13,253,012","$14,264,988","$14,500,000",,,,Cap Space
+Robin Lopez,CHI,"$13,219,250","$13,788,500","$14,357,750",,,,Cap Space
+Michael Kidd-Gilchrist,CHO,"$13,000,000","$13,000,000","$13,000,000","$13,000,000",,,1st Round Pick
+J.R. Smith,CLE,"$12,800,000","$13,760,000","$14,720,000","$15,680,000",,,Bird Rights
+Brandon Knight,PHO,"$12,606,250","$13,618,750","$14,631,250","$15,643,750",,,
+John Henson,MIL,"$12,517,606","$11,672,536","$10,827,466","$9,982,396",,,1st Round Pick
+Miles Plumlee,MIL,"$12,500,000","$12,500,000","$12,500,000","$12,500,000",,,Bird Rights
+Jordan Clarkson,LAL,"$12,500,000","$11,562,500","$12,500,000","$13,437,500",,,Cap Space
+Arron Afflalo,SAC,"$12,500,000","$12,500,000",,,,,Cap Space
+Tyson Chandler,PHO,"$12,415,000","$13,000,000","$13,585,000",,,,Cap Space
+Eric Gordon,HOU,"$12,385,364","$12,943,020","$13,500,375","$14,057,730",,,Cap Space
+Marvin Williams,CHO,"$12,250,000","$13,168,750","$14,087,500","$15,006,250",,,Cap Space
+Serge Ibaka,ORL,"$12,250,000",,,,,,Bird Rights
+Stephen Curry,GSW,"$12,112,359",,,,,,Bird Rights
+Nikola Pekovic,MIN,"$12,100,000","$11,600,000",,,,,Bird Rights
+Kenneth Faried,DEN,"$12,078,652","$12,921,348","$13,764,045",,,,1st Round Pick
+Marcin Gortat,WAS,"$12,000,000","$12,782,609","$13,565,218",,,,Bird Rights
+Kemba Walker,CHO,"$12,000,000","$12,000,000","$12,000,000",,,,1st Round Pick
+Kyle Lowry,TOR,"$12,000,000","$12,000,000",,,,,Bird Rights
+Amir Johnson,BOS,"$12,000,000",,,,,,Cap Space
+Nikola Vucevic,ORL,"$11,750,000","$12,250,000","$12,750,000",,,,Bird Rights
+Jeremy Lin,BRK,"$11,483,254","$12,000,000","$12,516,746",,,,Cap Space
+Jrue Holiday,NOP,"$11,286,518",,,,,,Bird Rights
+Courtney Lee,NYK,"$11,242,000","$11,747,890","$12,253,780","$12,759,670",,,Cap Space
+Solomon Hill,NOP,"$11,241,218","$11,747,073","$12,252,928","$12,758,781",,,Cap Space
+Wilson Chandler,DEN,"$11,200,000","$12,000,000","$12,800,000",,,,
+Andre Iguodala,GSW,"$11,131,368",,,,,,Bird Rights
+Derrick Favors,UTA,"$11,050,000","$12,000,000",,,,,1st Round Pick
+Andrew Bogut,DAL,"$11,027,027",,,,,,Bird Rights
+Austin Rivers,LAC,"$11,000,000","$11,825,000","$12,650,000",,,,Cap Space
+Joe Johnson,UTA,"$11,000,000","$10,505,000",,,,,Cap Space
