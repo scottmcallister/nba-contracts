@@ -1,4 +1,4 @@
-player_name,team,salary_2016-17,salary_2017-18,salary_2018-2019,salary_2019-2020,salary_2020-21,salary_2021-22,contract_type
+name,team,salary_2016-17,salary_2017-18,salary_2018-2019,salary_2019-2020,salary_2020-21,salary_2021-22,contract_type
 LeBron James,CLE,"$30,963,450","$33,285,709","$35,607,968",,,,Early Bird
 Mike Conley,MEM,"$26,540,100","$28,530,608","$30,521,115","$32,511,623","$34,504,132",,Cap Space
 DeMar DeRozan,TOR,"$26,540,100","$27,739,975","$27,739,975","$27,739,975","$27,739,975",,Cap Space

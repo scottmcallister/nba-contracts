@@ -53,7 +53,7 @@ print_range(start_i=90, end_i=110)
 
 with open('salaries.csv', 'w') as csvfile:
     fieldnames = [
-        'player_name',
+        'name',
         'team',
         'salary_2016-17',
         'salary_2017-18',
@@ -68,7 +68,7 @@ with open('salaries.csv', 'w') as csvfile:
     writer.writeheader()
     for index in range(0, 99):
         writer.writerow({
-            'player_name': player_names[index],
+            'name': player_names[index],
             'team': teams[index],
             'salary_2016-17': season_salaries_2016[index],
             'salary_2017-18': season_salaries_2017[index],
