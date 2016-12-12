@@ -3,6 +3,8 @@ import pandas as pd
 import lxml as lxml
 import csv
 
+print "parsing team standings"
+
 f = open('standings.html', 'r')
 soup = BeautifulSoup(f, 'lxml')
 east_table = soup.find("table", {"id": "confs_standings_E"})

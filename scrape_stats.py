@@ -3,6 +3,8 @@ import pandas as pd
 import lxml as lxml
 import csv
 
+print "parsing player statistics"
+
 f = open('stats_2015-16.html', 'r')
 soup = BeautifulSoup(f, 'lxml')
 table = soup.find(class_='stats-table')

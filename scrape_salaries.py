@@ -4,9 +4,10 @@ import pandas as pd
 import lxml as lxml
 import csv
 
-url = 'http://www.basketball-reference.com/contracts/players.html'
-r = requests.get(url)
-soup = BeautifulSoup(r.text, 'lxml')
+print "parsing salaries"
+
+f = open("contracts.html", "r")
+soup = BeautifulSoup(f, 'lxml')
 
 player_names = []
 teams = []
@@ -33,8 +34,6 @@ def print_range(start_i, end_i):
         salary_2020 = BeautifulSoup(str(col[6]), 'lxml').text
         salary_2021 = BeautifulSoup(str(col[7]), 'lxml').text
         contract = BeautifulSoup(str(col[8]), 'lxml').text
-        print "name: "+str(name)+" team: "+str(team)+" salary: " + \
-            str(salary_2016)+" type: "+contract
         player_names.append(name)
         teams.append(team)
         season_salaries_2016.append(salary_2016)

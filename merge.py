@@ -1,5 +1,7 @@
 import pandas as pd
 
+print "merging csv files"
+
 salaries = pd.read_csv('salaries.csv')
 stats = pd.read_csv('stats.csv')
 standings = pd.read_csv('standings.csv')
