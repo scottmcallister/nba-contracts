@@ -1,3 +1,7 @@
 h1 {
     text-align: center
 }
+.chart {
+    max-width:400px;
+    margin:auto;
+}
