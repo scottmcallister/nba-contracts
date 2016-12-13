@@ -1,3 +1,4 @@
 env/
 *.pyc
 *.pyo
+nbacontracts/static/bower_components/
