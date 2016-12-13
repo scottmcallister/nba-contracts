@@ -1,0 +1,23 @@
+{
+  "name": "nbacontracts",
+  "homepage": "https://github.com/scottmcallister/nba-contracts",
+  "authors": [
+    "Scott McAllister <mr.scott.mcallister@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^4.4.0",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
