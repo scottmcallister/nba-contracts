@@ -8,10 +8,10 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/api/merged')
+@app.route('/api/data')
 def api_merged():
     df = pd.read_csv('./nbacontracts/data/merged.csv')
-    response = df.to_json(orient="records")
+    response = df.to_dict(orient="records")
     return jsonify(response)
 
 
