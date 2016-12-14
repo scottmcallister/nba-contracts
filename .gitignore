@@ -2,4 +2,4 @@ env/
 *.pyc
 *.pyo
 bower_components/
-.DS_store
+.DS_Store
