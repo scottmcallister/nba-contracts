@@ -17,6 +17,8 @@ Jinja2==2.8
 kafka-python==1.0.2
 kazoo==2.2.1
 MarkupSafe==0.23
+numpy==1.11.2
+pandas==0.19.1
 paramiko==2.0.2
 pep8==1.7.0
 powerline-status==2.5.dev9999+git.cdd0cdbfee94238d38c1bef5f0548a4622518a05
