@@ -2,6 +2,12 @@ var margin = { top: 10, right: 20, bottom: 30, left: 30 };
 var width = 400 - margin.left - margin.right;
 var height = 400 - margin.top - margin.bottom;
 
+var tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0)
+    .style("z-index", 2)
+    .style("width:", "100%");
+
 var svg = d3.select('.chart')
   .append('svg')
     .attr('width', width + margin.left + margin.right)
@@ -39,6 +45,19 @@ d3.json('http://localhost:5000/api/data', function(err, data) {
       .data(data)
       .enter()
       .append('g')
+      .on("mouseover", function(d) {
+            tooltip.transition()
+                .duration(200)
+                .style("opacity", .9);
+            tooltip .html("<span>"+d.name+"</span>")
+                .style("left", (d3.event.pageX + 10) + "px")
+                .style("top", (d3.event.pageY - 35) + "px");
+            })
+      .on("mouseout", function(d) {
+          tooltip.transition()
+              .duration(500)
+              .style("opacity", 0);
+      })
       .attr('class', 'ball')
       .attr('transform', d => {
         return `translate(
@@ -50,8 +69,9 @@ d3.json('http://localhost:5000/api/data', function(err, data) {
       .append('circle')
       .attr('cx', 0)
       .attr('cy', 0)
-      .attr('r', 3)
-      .style('fill', 'steelblue');
+      .attr('r', 6)
+      .style('fill', 'steelblue')
+      .style('opacity', '0.6');
 
     // circles
     //   .append('text')
