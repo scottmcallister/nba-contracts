@@ -10,24 +10,28 @@ var svg = d3.select('.chart')
   .append('g')
     .attr('transform', 'translate(' + margin.left + ', ' + margin.top + ')');
 
-var yScale = d3.scaleLinear()
-    .domain([0, 40])
-    .range([height, 0])
-    .nice();
-  var yAxis = d3.axisLeft(yScale);
-  svg.call(yAxis, "s");
+d3.json('http://localhost:5000/api/data', function(err, data) {
+    var yScale = d3.scaleLinear()
+        .domain([0, d3.max(data, d => parseFloat(d.salary_2016_17.replace(/,|\$/g, '')))])
+        .range([height, 0])
+        .nice();
+    var yAxis = d3.axisLeft(yScale)
+    .ticks(10, "s");
+    svg.call(yAxis);
 
-  var xScale = d3.scaleLinear()
-    .domain([0, 30])
+    var xScale = d3.scaleLinear()
+    .domain([0, d3.max(data, d => d.points)])
     .range([0, width])
     .nice();
 
-  var xAxis = d3.axisBottom(xScale)
+    var xAxis = d3.axisBottom(xScale)
     .ticks(5);
-  svg
+    svg
     .append('g')
       .attr('transform', `translate(0, ${height})`)
     .call(xAxis);
+
+});
 
 function responsivefy(svg) {
     // get container + svg aspect ratio

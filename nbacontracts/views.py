@@ -11,6 +11,7 @@ def index():
 @app.route('/api/data')
 def api_merged():
     df = pd.read_csv('./nbacontracts/data/merged.csv')
+    df = df.fillna(value='')
     response = df.to_dict(orient="records")
     return jsonify(response)
 

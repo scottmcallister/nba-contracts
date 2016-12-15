@@ -54,12 +54,12 @@ with open('salaries.csv', 'w') as csvfile:
     fieldnames = [
         'name',
         'team',
-        'salary_2016-17',
-        'salary_2017-18',
-        'salary_2018-2019',
-        'salary_2019-2020',
-        'salary_2020-21',
-        'salary_2021-22',
+        'salary_2016_17',
+        'salary_2017_18',
+        'salary_2018_2019',
+        'salary_2019_2020',
+        'salary_2020_21',
+        'salary_2021_22',
         'contract_type'
     ]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -69,11 +69,11 @@ with open('salaries.csv', 'w') as csvfile:
         writer.writerow({
             'name': player_names[index],
             'team': teams[index],
-            'salary_2016-17': season_salaries_2016[index],
-            'salary_2017-18': season_salaries_2017[index],
-            'salary_2018-2019': season_salaries_2018[index],
-            'salary_2019-2020': season_salaries_2019[index],
-            'salary_2020-21': season_salaries_2020[index],
-            'salary_2021-22': season_salaries_2021[index],
+            'salary_2016_17': season_salaries_2016[index],
+            'salary_2017_18': season_salaries_2017[index],
+            'salary_2018_2019': season_salaries_2018[index],
+            'salary_2019_2020': season_salaries_2019[index],
+            'salary_2020_21': season_salaries_2020[index],
+            'salary_2021_22': season_salaries_2021[index],
             'contract_type': contract_type[index]
         })
