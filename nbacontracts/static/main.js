@@ -31,6 +31,35 @@ d3.json('http://localhost:5000/api/data', function(err, data) {
       .attr('transform', `translate(0, ${height})`)
     .call(xAxis);
 
+    var circles = svg
+      .selectAll()
+
+    var circles = svg
+      .selectAll('.ball')
+      .data(data)
+      .enter()
+      .append('g')
+      .attr('class', 'ball')
+      .attr('transform', d => {
+        return `translate(
+            ${xScale(d.points)},
+            ${yScale(parseFloat(d.salary_2016_17.replace(/,|\$/g, '')))})`;
+      });
+
+    circles
+      .append('circle')
+      .attr('cx', 0)
+      .attr('cy', 0)
+      .attr('r', 3)
+      .style('fill', 'steelblue');
+
+    // circles
+    //   .append('text')
+    //   .style('text-anchor', 'middle')
+    //   .style('fill', 'black')
+    //   .attr('y', 4)
+    //   .text(d => d.name);
+
 });
 
 function responsivefy(svg) {
