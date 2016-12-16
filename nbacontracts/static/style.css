@@ -4,6 +4,7 @@ h1 {
 .chart {
     max-width:400px;
     margin:auto;
+    padding: 15px;
 }
 div.tooltip {
   position: absolute;

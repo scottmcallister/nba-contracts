@@ -1,6 +1,6 @@
 var margin = { top: 10, right: 20, bottom: 30, left: 30 };
-var width = 400 - margin.left - margin.right;
-var height = 400 - margin.top - margin.bottom;
+var width = 500 - margin.left - margin.right;
+var height = 500 - margin.top - margin.bottom;
 
 var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
@@ -36,6 +36,23 @@ d3.json('http://localhost:5000/api/data', function(err, data) {
     .append('g')
       .attr('transform', `translate(0, ${height})`)
     .call(xAxis);
+
+    // text label for x axis
+    svg.append('text')
+        .attr("transform",
+            "translate(" + (width/2) + " ," +
+                           (height + margin.top + 20) + ")")
+        .style("text-anchor", "middle")
+        .text("Points Per Game '16/'17");
+
+    svg.append('text')
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("Salary '16/'17");
+
 
     var circles = svg
       .selectAll()
