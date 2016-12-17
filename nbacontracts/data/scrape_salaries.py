@@ -49,6 +49,11 @@ print_range(start_i=24, end_i=44)
 print_range(start_i=46, end_i=66)
 print_range(start_i=68, end_i=88)
 print_range(start_i=90, end_i=110)
+print_range(start_i=112, end_i=132)
+print_range(start_i=134, end_i=154)
+print_range(start_i=156, end_i=176)
+print_range(start_i=178, end_i=198)
+print_range(start_i=200, end_i=220)
 
 with open('salaries.csv', 'w') as csvfile:
     fieldnames = [
@@ -65,9 +70,9 @@ with open('salaries.csv', 'w') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     writer.writeheader()
-    for index in range(0, 99):
+    for index in range(0, 199):
         writer.writerow({
-            'name': player_names[index],
+            'name': player_names[index].replace('.', ''),
             'team': teams[index],
             'salary_2016_17': season_salaries_2016[index],
             'salary_2017_18': season_salaries_2017[index],

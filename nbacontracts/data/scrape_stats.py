@@ -39,7 +39,7 @@ with open('stats.csv', 'w') as csvfile:
     for row in table.find_all('tr')[1:270]:
         col = row.find_all('td')
         writer.writerow({
-            'name': BeautifulSoup(str(col[1]), 'lxml').text,
+            'name': BeautifulSoup(str(col[1]), 'lxml').text.replace('.', ''),
             'games_played': BeautifulSoup(str(col[2]), 'lxml').text,
             'minutes': BeautifulSoup(str(col[3]), 'lxml').text,
             'points': BeautifulSoup(str(col[4]), 'lxml').text,

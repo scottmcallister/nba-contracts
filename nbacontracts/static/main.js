@@ -1,4 +1,4 @@
-var margin = { top: 10, right: 20, bottom: 30, left: 30 };
+var margin = { top: 10, right: 20, bottom: 55, left: 55 };
 var width = 500 - margin.left - margin.right;
 var height = 500 - margin.top - margin.bottom;
 
@@ -22,37 +22,23 @@ d3.json('http://localhost:5000/api/data', function(err, data) {
         .range([height, 0])
         .nice();
     var yAxis = d3.axisLeft(yScale)
-    .ticks(10, "s");
+        .ticks(10, "s")
+        .tickPadding(3);
+
     svg.call(yAxis);
 
     var xScale = d3.scaleLinear()
-    .domain([0, d3.max(data, d => d.points)])
-    .range([0, width])
-    .nice();
+        .domain([0, d3.max(data, d => d.points)])
+        .range([0, width])
+        .nice();
 
     var xAxis = d3.axisBottom(xScale)
-    .ticks(5);
+        .ticks(5)
+        .tickPadding(3);
     svg
     .append('g')
       .attr('transform', `translate(0, ${height})`)
     .call(xAxis);
-
-    // text label for x axis
-    svg.append('text')
-        .attr("transform",
-            "translate(" + (width/2) + " ," +
-                           (height + margin.top + 20) + ")")
-        .style("text-anchor", "middle")
-        .text("Points Per Game '16/'17");
-
-    svg.append('text')
-        .attr("transform", "rotate(-90)")
-        .attr("y", 0 - margin.left)
-        .attr("x",0 - (height / 2))
-        .attr("dy", "1em")
-        .style("text-anchor", "middle")
-        .text("Salary '16/'17");
-
 
     var circles = svg
       .selectAll()
@@ -89,6 +75,28 @@ d3.json('http://localhost:5000/api/data', function(err, data) {
       .attr('r', 6)
       .style('fill', 'steelblue')
       .style('opacity', '0.6');
+
+
+
+    // text label for x axis
+    svg.append('text')
+      .attr("transform",
+          "translate(" + (width/2) + " ," +
+                         (height + margin.top + 30) + ")")
+      .attr("fill", "black")
+      .style("text-anchor", "middle")
+      .style("font-size", "18px")
+      .text("Points Per Game 2015/16");
+
+    svg.append('text')
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left)
+      .attr("x",0 - (height / 2))
+      .attr("dy", "1em")
+      .attr("fill", "black")
+      .style("text-anchor", "middle")
+      .style("font-size", "18px")
+      .text("Salary 2016/17");
 
     // circles
     //   .append('text')
