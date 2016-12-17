@@ -21,7 +21,7 @@ function drawGraph(xField, xLabel){
       .append('g')
         .attr('transform', 'translate(' + margin.left + ', ' + margin.top + ')');
 
-    d3.json('http://'+domain+'/api/data', function(err, data) {
+    d3.json('//'+domain+'/api/data', function(err, data) {
         var yScale = d3.scaleLinear()
             .domain([0, d3.max(data, d => parseFloat(d.salary_2016_17.replace(/,|\$/g, '')))])
             .range([height, 0])
