@@ -1,5 +1,8 @@
 function drawGraph(xField, xLabel){
 
+    var domain = window.location.hostname == 'localhost' ?
+        'localhost:5000' :
+        window.location.hostname;
     var margin = { top: 10, right: 20, bottom: 55, left: 55 };
     var width = 550 - margin.left - margin.right;
     var height = 550 - margin.top - margin.bottom;
@@ -18,7 +21,7 @@ function drawGraph(xField, xLabel){
       .append('g')
         .attr('transform', 'translate(' + margin.left + ', ' + margin.top + ')');
 
-    d3.json('http://localhost:5000/api/data', function(err, data) {
+    d3.json('http://'+domain+'/api/data', function(err, data) {
         var yScale = d3.scaleLinear()
             .domain([0, d3.max(data, d => parseFloat(d.salary_2016_17.replace(/,|\$/g, '')))])
             .range([height, 0])
