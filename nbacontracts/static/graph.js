@@ -57,7 +57,9 @@ function drawGraph(xField, xLabel){
                 tooltip.transition()
                     .duration(200)
                     .style("opacity", .9);
-                tooltip .html("<span>"+d.name+"</span>")
+                tooltip .html("<span>Player: <br>"+d.name+"</span><br><br><span>Salary: <br>"+
+                                d.salary_2016_17+"</span><br><br><span>"+
+                                xLabel+": <br>"+d[xField]+"</span>")
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 35) + "px");
                 })
