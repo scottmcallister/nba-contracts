@@ -4,7 +4,7 @@ boto==2.42.0
 bs4==0.0.1
 cffi==1.8.3
 click==6.6
-cryptography==1.5.2
+cryptography==3.2
 DateTime==4.1.1
 elasticsearch==5.0.0
 enum34==1.1.6
