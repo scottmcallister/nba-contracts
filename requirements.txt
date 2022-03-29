@@ -23,7 +23,7 @@ lxml==3.7.0
 MarkupSafe==0.23
 numpy==1.11.2
 pandas==0.19.1
-paramiko==2.0.2
+paramiko==2.10.1
 pep8==1.7.0
 powerline-status>=2.5
 psycopg2==2.6.2
